@@ -7,5 +7,14 @@ requires-python = ">=3.11"
 dependencies = [
     "anthropic>=0.107.1",
     "chromadb>=1.5.9",
+    "ftfy>=6.3.1",
     "python-dotenv>=1.2.2",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
