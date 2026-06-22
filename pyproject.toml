@@ -1,0 +1,11 @@
+[project]
+name = "pileup"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.107.1",
+    "chromadb>=1.5.9",
+    "python-dotenv>=1.2.2",
+]
